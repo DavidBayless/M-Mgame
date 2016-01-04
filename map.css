@@ -1,0 +1,126 @@
+body {
+  font-size: 10px;
+}
+
+.wrapper {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.col {
+  width: 2.5em;
+  height: 2.5em;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: -.5em;
+}
+
+.wall {
+  background-color: #212121;
+}
+
+.empty {
+  background-color: #9a9a9a;
+}
+
+.enemy {
+  background-color: red;
+}
+
+#player, #playerN, #playerW, #playerE, #playerS {
+  background-color: none;
+}
+
+#player img, #playerN img, #playerW img, #playerE img, #playerS  img {
+  display: block;
+  max-height: 2.5em;
+  max-width: 2.5em;
+  height: auto;
+  width: auto;
+}
+
+#playerW img {
+  transform: rotate(-90deg);
+}
+
+#playerE img {
+  transform: rotate(90deg);
+}
+
+#playerS img {
+  transform: rotate(180deg);
+}
+
+.stairs {
+  background-color: green;
+}
+
+.topRow{
+  background-color: #212121;
+  height: 65vh;
+  width: 100vw;
+}
+
+.viewWrapper {
+  height: inherit;
+  box-sizing: border-box;
+  border-left: 1em solid black;
+  padding: 0;
+}
+
+.faceWall {
+  background: url("darkWall.png") center center no-repeat;
+}
+
+.faceEmpty {
+  background: url("empty.png") center center no-repeat;
+}
+
+.faceStairs {
+  background: url("stairs.png") center center no-repeat;
+}
+
+.bottomRow {
+  background-color: pink;
+  box-sizing: border-box;
+  height: 35vh;
+  width: 100vw;
+  text-align: center;
+  border-top: 1em solid black;
+  background: url("marble.png") center center no-repeat;
+}
+
+.playerScreen {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.char {
+  border-radius: 50%;
+  width: 50%;
+  height: 20vh;
+  box-sizing: border-box;
+  border: 1em solid #212121;
+  margin:auto;
+  background-color: #212121;
+}
+
+.click {
+  height: 5vh;
+  width: 5vw;
+  box-sizing: border-box;
+  border: .5em solid black;
+  margin-top: 2em;
+  margin-right: 1em;
+  background-color: #212121;
+}
+
+.viewWrapper img {
+  display: block;
+  max-height: 65vh;
+  height: auto;
+  width: 57.55vw;
+}
