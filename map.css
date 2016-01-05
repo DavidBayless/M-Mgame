@@ -18,11 +18,11 @@ body {
 }
 
 .wall {
-  background-color: #212121;
+  background: repeating-linear-gradient(45deg, #bdbdbd, #212121 2rem, #212121 2rem, #bdbdbd 2rem, #212121 6rem) center center no-repeat;
 }
 
 .empty {
-  background-color: #9a9a9a;
+  background-color: #efefef;
 }
 
 .enemy {
